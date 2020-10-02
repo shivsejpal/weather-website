@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/cloud.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Welcome | HBS</title>
+</head>
+<body>
+  <div class="container">
+    <div id="navbar">
+      {{>header}}
+    </div>
+    <div class="showcase">
+      <div class="card">
+        <div class="heading">
+          <h1>{{title}}</h1>
+        </div>
+        <div class="userForm_1">
+          <form class="userForm">
+            <input placeholder="Location">
+            <button class="btn">search</button>
+          </form>
+        </div>
+        <div class="fetchData">
+          <p id="messageTwo"></p>
+          <p id="messageThree"></p>
+          <p id="messageOne"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    {{>footer}}
+  </footer>
+  <script src="/js/app.js"></script>
+</body>
+</html>
