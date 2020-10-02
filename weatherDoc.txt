@@ -1,0 +1,40 @@
+https://openweathermap.org/current
+
+https://openweathermap.org/forecast5
+
+https://openweathermap.org/api/weathermaps
+
+https://openweathermap.org/triggers
+
+https://openweathermap.org/api/uvi
+
+https://openweathermap.org/stations
+
+key= 2ee5366eb606516cc5957f7d44f9c27d
+
+for Degree = &units=metric
+
+By City Name: 
+api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
+api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={your api key}
+api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={your api key}
+=> by city Name = http://api.openweathermap.org/data/2.5/weather?q=ahmedabad&appid=2ee5366eb606516cc5957f7d44f9c27d
+
+By City ID:
+api.openweathermap.org/data/2.5/weather?id={city id}&appid={your api key}
+=> by ID = http://api.openweathermap.org/data/2.5/weather?id=1279233&appid=2ee5366eb606516cc5957f7d44f9c27d
+
+By Coordinates:
+api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={your api key}
+=> by lat, lon = http://api.openweathermap.org/data/2.5/weather?lat=23.03&lon=72.62&appid=2ee5366eb606516cc5957f7d44f9c27d&units=metric
+
+By Zip Code: 
+api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}&appid={your api key}
+=> by zip = http://api.openweathermap.org/data/2.5/weather?zip=382350,IN&appid=2ee5366eb606516cc5957f7d44f9c27d
+
+
+https://speckyboy.com/css-js-snippets-weather-widgets/
+
+For GeoCoordinates
+=> 
+https://api.mapbox.com/geocoding/v5/mapbox.places/ahmedabad.json?access_token=pk.eyJ1Ijoic2hpdnNlanBhbDI4IiwiYSI6ImNrZjZnMGx2bjBzaWszMHFkZG9wbnl0cnAifQ.eBndb-KAIFi3bmIuk8nStA&limit=1
